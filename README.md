@@ -6,9 +6,9 @@ A double is taken into the doubleToFloatx function to convert the representation
 Many steps are taken into account. This code dismantles sign bits, exponential bits, and mantissa bits to reform them into our new special order. Caution is recognized with regards to the special cases of float (0.0, infinity, or not-a-number), rebiasing of the exponential bits, and illegal parameters for a floatx. 
 
 TO COMPILE: 
-gcc testFloatx.c floatx.c -lm -o run
+"gcc testFloatx.c floatx.c -lm -o run"
 TO RUN:
-./run <total bits> <exponential bits> 
+"./run <total bits> <exponential bits>" 
       <input numbers here>
       
 Note: Subnormal cases may fail to result in an accurate conversion.
