@@ -7,9 +7,10 @@ Many steps are taken into account. This code dismantles sign bits, exponential b
 
 TO COMPILE: 
 "gcc testFloatx.c floatx.c -lm -o run"
+
 TO RUN:
-"./run <total bits> <exponential bits>" 
-      <input numbers here>
+"./run (total bits) (exponential bits)" 
+      (input numbers here)
       
 * ![Instruction](example.png)
 
