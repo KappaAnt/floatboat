@@ -1,1 +1,9 @@
-# floatboat
+## Floating Point Numbers
+
+This project manipulates the formation of the IEE floating point standard to form our own "floatx".
+A double is taken into the doubleToFloatx function to convert the representation with a certain number of total bits and exponential bits.
+
+Many steps are taken into account. This code dismantles sign bits, exponential bits, and mantissa bits to reform them into our new special order. Caution is recognized with regards to the special cases of float (0.0, infinity, or not-a-number), rebiasing of the exponential bits, and illegal parameters for a floatx. 
+
+Note: Subnormal cases may fail to result in an accurate conversion.
+      Intended for use on UNIX machines.
