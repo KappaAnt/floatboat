@@ -11,5 +11,10 @@ TO RUN:
 "./run <total bits> <exponential bits>" 
       <input numbers here>
       
+* ![Instruction](example.png)
+
+
 Note: Subnormal cases may fail to result in an accurate conversion.
       Intended for use on UNIX machines.
+
+
