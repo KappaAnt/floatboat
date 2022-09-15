@@ -16,7 +16,9 @@ TO RUN:
 
 
 Notes: Subnormal cases may fail to result in an accurate conversion.
+
        Intended for use on UNIX machines.
+       
        Visual Website for floats: https://evanw.github.io/float-toy/
 
 
